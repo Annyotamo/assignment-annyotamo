@@ -1,0 +1,7 @@
+.hero-banner-container {
+    display: flex;
+    /* background-color: green; */
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 180px;
+}

@@ -1,0 +1,27 @@
+.wrapper {
+    position: relative;
+    width: 600px;
+    height: 800px;
+}
+
+.wrapper > div {
+    position: absolute;
+}
+.wrapper > img:nth-child(2) {
+    top: -50px;
+    left: 20px;
+    position: absolute;
+    transform: rotate(15deg);
+}
+
+.wrapper > img:nth-child(3) {
+    position: absolute;
+    top: 210px;
+    right: 100px;
+}
+.wrapper > img:nth-child(4) {
+    position: absolute;
+    z-index: -1;
+    left: -35px;
+    bottom: 80px;
+}

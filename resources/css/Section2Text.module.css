@@ -1,0 +1,32 @@
+.sec-2-text {
+    width: 508px;
+}
+
+.sec-2-text label {
+    color: #ff5555;
+    font-size: 18px;
+    font-family: "ClashDisplay-Medium";
+}
+
+.sec-2-text h1 {
+    font-size: 48px;
+    font-family: "ClashDisplay-Bold";
+    margin-bottom: 25px;
+}
+.sec-2-text h3 {
+    font-size: 28px;
+    font-family: "ClashDisplay-Bold";
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.sec-2-text > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sec-2-text p {
+    color: rgb(100, 100, 100);
+    font-size: 18px;
+}

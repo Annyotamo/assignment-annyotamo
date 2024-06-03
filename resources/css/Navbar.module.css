@@ -1,0 +1,42 @@
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 53px 175px;
+    width: 1090px;
+    height: 60px;
+}
+
+.navbar-container div {
+    display: flex;
+    align-items: center;
+    width: 585px;
+    height: 34.41px;
+}
+
+.navbar-container img {
+    margin-right: 35px;
+}
+
+.navbar-container ul {
+    font-size: 20px;
+}
+
+.navbar-container ul li {
+    font-family: "ClashDisplay-Medium";
+    display: inline-block;
+    margin-right: 30px;
+    color: black;
+}
+.navbar-container ul li:nth-child(4) {
+    font-family: "ClashDisplay-Semibold";
+    color: #ff555f;
+}
+
+.navbar-container button {
+    width: 180px;
+    height: 60px;
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+}

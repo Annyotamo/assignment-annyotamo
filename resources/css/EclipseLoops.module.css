@@ -1,0 +1,17 @@
+.eclipses-container {
+    position: relative;
+}
+
+.eclipses-container img:nth-child(1) {
+    position: absolute;
+    top: 65px;
+}
+.eclipses-container img:nth-child(2) {
+    position: absolute;
+    left: 30px;
+    top: 40px;
+}
+.eclipses-container img:nth-child(3) {
+    position: absolute;
+    left: 70px;
+}

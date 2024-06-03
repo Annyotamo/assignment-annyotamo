@@ -1,0 +1,30 @@
+.section-one-image-container {
+    display: flex;
+    justify-content: center;
+    /* margin-top: -0px; */
+}
+
+.section-one-image-container > div {
+    position: relative;
+    width: 550px;
+}
+
+.section-one-image-container > div > img {
+    transform: rotate(15deg);
+    margin-left: 15px;
+    margin-top: -80px;
+}
+
+.section-one-image-container > div > div {
+    position: absolute;
+    top: -25px;
+    z-index: -1;
+    display: flex;
+}
+
+.blur {
+    position: absolute;
+    left: -50px;
+    z-index: -1;
+    top: 150px;
+}

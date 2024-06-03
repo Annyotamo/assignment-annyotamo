@@ -1,0 +1,13 @@
+.section-one-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+}
+
+.section-one-container > img {
+    position: absolute;
+    right: 0px;
+    top: 30px;
+    z-index: -1;
+}

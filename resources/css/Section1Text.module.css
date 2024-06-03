@@ -1,0 +1,28 @@
+.section-one-text-container {
+    width: 615px;
+}
+
+/* section one header */
+.section-one-text-container > div > label {
+    font-size: 18px;
+    color: #ff5555;
+    font-family: "ClashDisplay-Medium";
+}
+.section-one-text-container h1 {
+    font-size: 48px;
+    font-family: "ClashDisplay-Bold";
+    margin-bottom: 30px;
+}
+
+.section-one-text-container h2 {
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.section-one-text-container p {
+    margin-bottom: 30px;
+    font-family: "ClashDisplay-Medium";
+    font-size: 18px;
+    color: rgb(100, 100, 100);
+}
