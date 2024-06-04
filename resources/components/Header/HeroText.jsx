@@ -8,13 +8,13 @@ import styles from "@/resources/css/HeroText.module.css"
 export default function HeroText() {
     return (
         <div className={styles.wrapper}>
-            <div className={styles["hero-text-container"]}>
+            <div className={styles.content}>
                 <Image src={heroBlur} />
                 <div>
                     <h1>Make The Best Financial Decisions</h1>
                     <p>Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.</p>
                 </div>
-                <div className={styles["hero-buttons"]}>
+                <div className={styles.buttons}>
                     <button>
                         <span>Get started </span>
                         <Image src={VectorArrow} />

@@ -5,38 +5,38 @@
     margin-right: -65px;
 }
 
-.hero-text-container {
+.content {
     max-width: 618px;
     position: relative;
 }
 
+.content > div > h1 {
+    font-family: "ClashDisplay-Bold", sans-serif;
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+
+.content > div > p {
+    font-family: "ClashDisplay-Medium", sans-serif;
+    color: gray;
+    margin-bottom: 20px;
+}
+
 /* eclipse gradient*/
-.hero-text-container > img {
+.content > img {
     position: absolute;
     left: 50px;
     bottom: 30px;
     z-index: -1;
 }
 
-.hero-text-container > div > h1 {
-    font-family: "ClashDisplay-Bold", sans-serif;
-    font-size: 64px;
-    margin-bottom: 30px;
-}
-
-.hero-text-container > div > p {
-    font-family: "ClashDisplay-Medium", sans-serif;
-    color: gray;
-    margin-bottom: 20px;
-}
-
-.hero-buttons {
+.buttons {
     display: flex;
     align-items: center;
 }
 
 /* get started button*/
-.hero-buttons button:nth-child(1) {
+.buttons button:nth-child(1) {
     width: 180px;
     height: 60px;
     background-color: black;
@@ -47,7 +47,7 @@
 }
 
 /* watch video button*/
-.hero-buttons button:nth-child(2) {
+.buttons button:nth-child(2) {
     display: inline-flex;
     align-items: center;
     font-family: "ClashDisplay-Medium";
@@ -56,6 +56,13 @@
     color: black;
 }
 
-.hero-buttons button:nth-child(2) img {
+.buttons button:nth-child(2) img {
     margin-right: 10px;
 }
+
+/* @media screen and (max-width: 765px) {
+    .content > div > h1 {
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+} */
