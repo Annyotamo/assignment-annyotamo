@@ -6,6 +6,8 @@
     margin-top: 35px;
     width: 1090px;
     height: 60px;
+    position: relative;
+    z-index: 100;
 }
 
 .navbar-container div {
@@ -29,9 +31,13 @@
     margin-right: 30px;
     color: black;
 }
+.navbar-container ul li:hover {
+    color: #ff5555;
+    cursor: pointer;
+}
 .navbar-container ul li:nth-child(4) {
     font-family: "ClashDisplay-Semibold";
-    color: #ff555f;
+    color: #ff5555;
 }
 
 .navbar-container button {
@@ -40,4 +46,8 @@
     color: white;
     background-color: black;
     border-radius: 4px;
+}
+
+.navbar-container button:hover {
+    cursor: pointer;
 }

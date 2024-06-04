@@ -115,3 +115,7 @@ p {
 label {
     font-family: "ClashDisplay-Medium";
 }
+
+button:hover {
+    cursor: pointer;
+}
