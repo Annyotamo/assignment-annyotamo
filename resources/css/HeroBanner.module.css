@@ -1,18 +1,18 @@
-.hero-banner-container {
+.wrapper {
     display: flex;
     align-items: end;
     margin-top: -40px;
-    margin-left: 185px;
-    justify-content: center;
+    justify-content: flex-end;
+    padding-right: 26.5px;
     position: relative;
 }
 
-.hero-banner-container > img:nth-child(3) {
+.wrapper > img:nth-child(3) {
     position: absolute;
-    top: 70px;
-    left: -120px;
+    top: 60px;
+    left: 60px;
 }
-.hero-banner-container > img:nth-child(4) {
+.wrapper > img:nth-child(4) {
     position: absolute;
     bottom: 33%;
     left: 10%;

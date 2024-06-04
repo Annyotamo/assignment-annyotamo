@@ -1,3 +1,5 @@
+import Navbar from "@/resources/components/Navbar/Navbar";
+import Footer from "@/resources/components/Footer/Footer";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -14,7 +16,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body>{children}</body>
+            <body>
+                <Navbar />
+                {children}
+                {/* <Footer /> */}
+            </body>
         </html>
     );
 }

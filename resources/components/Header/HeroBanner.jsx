@@ -5,7 +5,7 @@ import styles from "@/resources/css/HeroBanner.module.css"
 import star from "@/resources/assets/star-2.png"
 export default function HeroBanner() {
     return (
-        <div className={styles['hero-banner-container']}>
+        <div className={styles.wrapper}>
             <HeroText />
             <Image src={heroImage} />
             <Image src={star} />

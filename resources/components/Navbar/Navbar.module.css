@@ -4,7 +4,7 @@
     justify-content: space-between;
     margin: 0 auto;
     margin-top: 35px;
-    width: 1090px;
+    max-width: 1090px;
     height: 60px;
     position: relative;
     z-index: 100;
@@ -13,8 +13,8 @@
 .navbar-container div {
     display: flex;
     align-items: center;
-    width: 585px;
-    height: 34.41px;
+    max-width: 585px;
+    min-height: 34.41px;
 }
 
 .navbar-container img {
@@ -22,7 +22,7 @@
 }
 
 .navbar-container ul {
-    font-size: 20px;
+    font-size: calc(1em + 4px);
 }
 
 .navbar-container ul li {
@@ -42,12 +42,41 @@
 
 .navbar-container button {
     width: 180px;
+    font-family: "ClashDisplay-Medium";
     height: 60px;
+    font-size: 18px;
     color: white;
     background-color: black;
     border-radius: 4px;
 }
 
-.navbar-container button:hover {
-    cursor: pointer;
+/* Medium Device*/
+@media screen and (max-width: 765px) {
+    .navbar-container {
+        margin: 25px 10px;
+    }
+    .navbar-container ul li {
+        margin-right: 10px;
+        font-size: 14px;
+    }
+
+    .navbar-container button {
+        width: 120px;
+        height: 40px;
+        font-size: 12px;
+    }
+}
+
+/* Small Device*/
+@media screen and (max-width: 565px) {
+    .navbar-container ul li {
+        margin-right: 10px;
+        font-size: 12px;
+    }
+
+    .navbar-container button {
+        width: 80px;
+        height: 30px;
+        font-size: 10px;
+    }
 }
