@@ -1,5 +1,5 @@
 import Image from "next/image";
-import heroImage from "@/resources/assets/hero-banner-image.png"
+import heroImage from "./hero-banner-image.png"
 import HeroText from "./HeroText";
 import styles from "@/resources/css/HeroBanner.module.css"
 import star from "@/resources/assets/star-2.png"
