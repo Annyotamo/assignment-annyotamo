@@ -1,3 +1,9 @@
-Built Using NEXT JS 14 CSS Modules used for styling
+<h1>Built Using NEXT JS 14 </h1>
+<h2>CSS Modules used for styling</h2>
 
-Name: Annyotamo Barman Number: 8250273841 Email: abprogresss@gmail.com GitHub: https://github.com/Annyotamo
+<ul>
+  <li>Name: Annyotamo Barman</li>
+  <li>Number: 8250273841</li>
+  <li>Email: abprogresss@gmail.com</li>
+  <li>GitHub: https://github.com/Annyotamo</li>
+</ul>   
