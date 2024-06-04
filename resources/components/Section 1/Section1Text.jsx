@@ -1,8 +1,8 @@
 import styles from "@/resources/css/Section1Text.module.css"
 import Image from "next/image"
-import icon1 from "./section-1-icon-1.png"
-import icon2 from "./section-1-icon-2.png"
-import icon3 from "./section-1-icon-3.png"
+import icon1 from "./s1-icon-1.png"
+import icon2 from "./s1-icon-2.png"
+import icon3 from "./s1-icon-3.png"
 
 
 export default function Section1Text() {
