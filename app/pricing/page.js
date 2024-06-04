@@ -1,9 +1,9 @@
-import Section2Text from "@/resources/components/Section 2/Section2Text";
+import Section1 from "@/resources/components/Section 1/Section1";
 
 export default function PricingPage() {
     return (
         <div>
-            <Section2Text />
+            <Section1 />
         </div>
     );
 }

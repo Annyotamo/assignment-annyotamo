@@ -1,7 +1,19 @@
 .hero-banner-container {
     display: flex;
-    /* background-color: green; */
+    align-items: end;
+    margin-top: -40px;
+    margin-left: 185px;
     justify-content: center;
-    margin-top: 100px;
-    margin-left: 180px;
+    position: relative;
+}
+
+.hero-banner-container > img:nth-child(3) {
+    position: absolute;
+    top: 70px;
+    left: -120px;
+}
+.hero-banner-container > img:nth-child(4) {
+    position: absolute;
+    bottom: 33%;
+    left: 10%;
 }

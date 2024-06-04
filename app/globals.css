@@ -97,4 +97,21 @@
 body {
     font-family: "ClashDisplay-regular", sans-serif;
     overflow-x: hidden;
+    text-transform: capitalize;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "ClashDisplay-Bold";
+}
+
+p {
+    line-height: 30px;
+    text-transform: capitalize;
+    font-family: "ClashDisplay-Medium";
+}
+
+label {
+    font-family: "ClashDisplay-Medium";
 }

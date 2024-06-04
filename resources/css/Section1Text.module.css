@@ -1,5 +1,5 @@
 .section-one-text-container {
-    width: 615px;
+    height: 470px;
 }
 
 /* section one header */
@@ -25,4 +25,5 @@
     font-family: "ClashDisplay-Medium";
     font-size: 18px;
     color: rgb(100, 100, 100);
+    width: 650px;
 }

@@ -4,7 +4,7 @@ import HeroIcon1 from "@/resources/assets/iPhone-13-Pro-Front.png"
 import HeroIcon2 from "@/resources/assets/iPhone-13-Pro-Front-1.png"
 import HeroIcon3 from "@/resources/assets/iPhone-13-Pro-Front-2.png"
 import LinedEclipse from "@/resources/assets/Lined-eclipse.png"
-import ShadedEclipse from "@/resources/assets/shaded-eclipse-2.png"
+import blur2 from "@/resources/assets/blur-2.png"
 
 export default function HeroImage() {
     return (
@@ -15,7 +15,7 @@ export default function HeroImage() {
             <Image src={LinedEclipse} />
             <Image src={LinedEclipse} />
             <Image src={LinedEclipse} />
-            <Image src={ShadedEclipse} />
+            <Image src={blur2} />
         </div>
     )
 }

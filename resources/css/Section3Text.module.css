@@ -1,0 +1,22 @@
+.text-wrapper {
+    width: 563px;
+}
+
+.text-wrapper h1 {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 28px;
+    font-family: "ClashDisplay-Bold", sans-serif;
+}
+
+.text-wrapper > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.text-wrapper p {
+    font-size: 18px;
+    font-family: "ClashDisplay-Medium", sans-serif;
+    color: rgb(100, 100, 100);
+}
